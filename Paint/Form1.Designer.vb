@@ -33,6 +33,7 @@ Partial Class Form1
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Squarebox = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -135,12 +136,22 @@ Partial Class Form1
         Me.Squarebox.Text = "Square"
         Me.Squarebox.UseVisualStyleBackColor = True
         '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(1038, 67)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(53, 49)
+        Me.Button9.TabIndex = 11
+        Me.Button9.Text = "Square"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(1103, 442)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Squarebox)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Form1"
@@ -160,4 +171,5 @@ Partial Class Form1
     Friend WithEvents Button8 As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Squarebox As Button
+    Friend WithEvents Button9 As Button
 End Class
